@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
+    <link rel="stylesheet" href="../css-code/style.css" />
   </head>
   <body>
     <header>Calculator</header>
-    <div>
+    <div id="main">
       <textarea id="textareaCalculator" cols="20" rows="1" disabled></textarea>
-      <button type="buttonNumber" id="buttonNumOne">1</button>
-      <button type="buttonNumber" id="buttonNumTwo">2</button>
-      <button type="buttonNumber" id="buttonNumThree">3</button>
-      <button type="buttonNumber" id="buttonNumFour">4</button>
-      <button type="buttonNumber" id="buttonNumFive">5</button>
-      <button type="buttonNumber" id="buttonNumSix">6</button>
-      <button type="buttonNumber" id="buttonNumSeven">7</button>
-      <button type="buttonNumber" id="buttonNumEight">8</button>
-      <button type="buttonNumber" id="buttonNumNine">9</button>
-      <button type="buttonNumber" id="buttonNumCero">0</button>
+      <div id="Number">
+        <button class="buttonNumber" id="buttonNumOne">1</button>
+        <button class="buttonNumber" id="buttonNumTwo">2</button>
+        <button class="buttonNumber" id="buttonNumThree">3</button>
+        <button class="buttonNumber" id="buttonNumFour">4</button>
+        <button class="buttonNumber" id="buttonNumFive">5</button>
+        <button class="buttonNumber" id="buttonNumSix">6</button>
+        <button class="buttonNumber" id="buttonNumSeven">7</button>
+        <button class="buttonNumber" id="buttonNumEight">8</button>
+        <button class="buttonNumber" id="buttonNumNine">9</button>
+      </div>
+      <button id="buttonNumCero">0</button>
       <button id="buttonCharDot">.</button>
       <button id="buttonCharEqual">=</button>
       <button id="buttonCharPlus">+</button>

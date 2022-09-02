@@ -1,0 +1,27 @@
+body {
+  margin: 0%;
+}
+
+#textareaCalculator {
+  resize: none;
+  margin: auto;
+  width: 500px;
+}
+
+main {
+  border-size: 10px;
+  border-color: black;
+}
+
+#Number {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+}
+.buttonNumber {
+  margin: 1.4%;
+  width: 30%;
+  height: 30.5%;
+  font-size: 100px;
+}
